@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from .forms import ReceiptFileForm
 from .models import ReceiptFile
 
-BACKEND_URL = 'https://4cd0-2401-4900-1cbd-f899-68ff-7943-d4b2-2ac9.ngrok-free.app/media/'
+BACKEND_URL = 'https://file-convertor-qmzt.onrender.com/media/'
 
 def upload_receipt_file(request):
     if request.method == 'POST':

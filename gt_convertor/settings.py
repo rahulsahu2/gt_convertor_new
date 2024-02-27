@@ -132,5 +132,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 TIME_ZONE = 'Asia/Kolkata'
-# Activate Django-Heroku.
-django_heroku.settings(locals())
